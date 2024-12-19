@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assigment-2Form</title>
+</head>
+<body>
+    <h1>Application Form</h1>
+
+    <form action="">
+        
+        <label for="">Name:
+            <input type="text">
+        </label>
+
+        <label for="">Last Name:
+            <input type="text">
+        </label>
+
+        <br>
+        <br>
+
+        <label for="">Date of Birth:
+            <input type="date">
+        </label>
+
+        <label for="">Age:
+            <input type="number">
+        </label>
+
+        <br>
+        <br>
+
+        <label for="">Gender:
+            <select name="" id="" name="gender">
+                <option value="male">
+                    Male
+                </option>
+
+                <option value="female" name="gender">
+                    Female
+                </option>
+
+            </select>
+        </label>
+
+        <label for="">Email:
+            <input type="email" placeholder="Enter your email">
+        </label>
+
+        <br>
+        <br>
+        Position Available: 
+
+        <input type="radio" id="jn-Developer" value="Junior Developer" name="position">
+            <label for="jn-Developer">Junior Developer
+            </label>
+
+        <input type="radio" id="mid-level-Developer" value="mid-level-Developer" name="position">
+            <label for="mid-level-Developer">Mid-level Developer
+            </label>
+
+        <input type="radio" id="senior-Developer" value="senior-Developer" name="position">
+            <label for="senior-Developer">Senior Developer
+            </label>
+
+        <br>
+        <br>
+
+        Programming Languages:
+
+        <input type="checkbox" id="java" value="java" name="language">
+            <label for="java">Java
+            </label>
+
+        <input type="checkbox" id="javaScript" value="javaScript" name="language">
+            <label for="javaScript">JavaScript
+            </label>
+
+        <input type="checkbox" id="Python" value="Python" name="language">
+            <label for="Python">Python
+            </label>
+
+        <br>
+        <br>
+        <label for="password">
+            Password:
+        </label>
+        <input type="password" name="" id="password" value="">
+        
+        <label for="c-password">
+           Cofirm Password:
+        </label>
+        <input type="text" name="" id="c-password" value="">
+
+        <br>
+        <br>
+
+        <input type="submit">
+        <input type="reset">
+
+        
+    </form>
+
+    <!-- Sanjay Soni
+         roll no 3453 -->
+    
+</body>
+</html>
